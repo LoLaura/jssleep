@@ -29,11 +29,13 @@ $mq1024: 1024px;
       justify-content: center;
     }
     .logo-img {
-      width: 260px;
-      margin: 30px;
-      @include media-breakpoint-between(xs, sm) {
-        margin: 0rem;
+      @include media-breakpoint-between(xs, md) {
+        margin-left: 37px;
         width: 150px;
+      }
+      @include media-breakpoint-up(xl) {
+        width: 250px;
+        margin: 30px;
       }
     }
   }
@@ -102,29 +104,35 @@ $mq1024: 1024px;
     bottom: 1rem;
   }
   .city {
-    font-size: 36px;
-    @include media-breakpoint-between(xs, sm) {
+    // font-size: 36px;
+    @include media-breakpoint-between(xs, md) {
       font-size: 18px;
     }
-    @include media-breakpoint-between(sm, md) {
+    @include media-breakpoint-between(md, xl) {
       margin: 6px 0px;
-      font-size: 30px;
+      font-size: 25px;
     }
-    @include media-breakpoint-between(md, lg) {
-      font-size: 33px;
+
+    @include media-breakpoint-up(xl) {
+      font-size: 35px;
     }
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(xxl) {
       font-size: 40px;
     }
   }
   .info {
-    font-size: 25px;
-    padding: 22px;
+    size: letter;
     letter-spacing: 2px;
     @include media-breakpoint-between(xs, sm) {
-      font-size: 16px;
+      font-size: 14px;
+      padding: 10px;
+      line-height: 23px;
     }
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(md) {
+      font-size: 22px;
+      padding: 22px;
+    }
+    @include media-breakpoint-up(xxl) {
       font-size: 25px;
       padding: 22px;
       letter-spacing: 2px;
@@ -141,10 +149,10 @@ $mq1024: 1024px;
     @include media-breakpoint-between(sm, md) {
       font-size: 40px;
     }
-    @include media-breakpoint-between(md, lg) {
-      font-size: 60px;
+    @include media-breakpoint-between(md, xl) {
+      font-size: 40px;
     }
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(xxl) {
       margin: -19px 0;
       font-size: 60px;
     }
@@ -189,15 +197,12 @@ $mq1024: 1024px;
       }
     }
     .right {
-      padding: 3rem 3rem 30px;
-      @include media-breakpoint-between(xs, sm) {
+      // padding: 3rem 3rem 30px;
+      @include media-breakpoint-between(xs, xl) {
         padding: 0px 0px 20px;
       }
-      @include media-breakpoint-between(sm, md) {
-        padding: 0px 0px 30px;
-      }
-      @include media-breakpoint-between(md, lg) {
-        padding: 0px 0px 30px;
+      @include media-breakpoint-up(xxl) {
+        padding: 3rem 3rem 30px;
       }
       .two-p {
         padding: 0px !important;
@@ -205,6 +210,9 @@ $mq1024: 1024px;
           width: 100%;
         }
       }
+    }
+    .card {
+      border-color: transparent;
     }
     .card-body {
       padding: 25px;
