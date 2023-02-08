@@ -11129,7 +11129,7 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .htl-content .circle {
-    margin: 2px;
+    margin: -13px 2px;
     height: 335px;
   }
 }
@@ -11173,7 +11173,7 @@ textarea.form-control-lg {
 }
 @media (max-width: 1199.98px) {
   .htl-content .box .right {
-    padding: 0px 0px 20px;
+    padding: 10px 0px 20px;
   }
 }
 @media (min-width: 1400px) {
