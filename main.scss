@@ -86,22 +86,49 @@ $mq1024: 1024px;
     padding: 0px;
   }
 
-  .square {
-    top: 45rem;
-    left: -12rem;
+  .web-square {
+    position: absolute;
+    top: 44rem;
+    left: -15rem;
   }
-  .triangle {
+  .phone-square {
+    position: absolute;
+    width: 100px;
+    left: 13rem;
+  }
+  .web-triangle {
+    position: absolute;
     width: 250px;
     bottom: 1rem;
     right: -12rem;
   }
-  .x {
-    left: -12rem;
+  .phone-triangle {
+    width: 100px;
+    position: absolute;
+    left: 2rem;
+    top: -5rem;
   }
-  .o {
+  .web-x {
+    position: absolute;
+    left: -17rem;
+  }
+  .phone-x {
+    width: 100px;
+    position: absolute;
+    left: -4rem;
+    bottom: -3rem;
+  }
+  .web-o {
+    position: absolute;
     width: 250px;
     right: -12rem;
     bottom: 1rem;
+  }
+  .phone-o {
+    position: absolute;
+    width: 100px;
+    top: -7rem;
+    left: 2rem;
   }
   .city {
     // font-size: 36px;

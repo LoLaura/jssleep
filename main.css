@@ -11034,22 +11034,49 @@ textarea.form-control-lg {
     padding: 0px;
   }
 }
-.htl-content .square {
-  top: 45rem;
-  left: -12rem;
+.htl-content .web-square {
+  position: absolute;
+  top: 44rem;
+  left: -15rem;
 }
-.htl-content .triangle {
+.htl-content .phone-square {
+  position: absolute;
+  width: 100px;
+  left: 13rem;
+}
+.htl-content .web-triangle {
+  position: absolute;
   width: 250px;
   bottom: 1rem;
   right: -12rem;
 }
-.htl-content .x {
-  left: -12rem;
+.htl-content .phone-triangle {
+  width: 100px;
+  position: absolute;
+  left: 2rem;
+  top: -5rem;
 }
-.htl-content .o {
+.htl-content .web-x {
+  position: absolute;
+  left: -17rem;
+}
+.htl-content .phone-x {
+  width: 100px;
+  position: absolute;
+  left: -4rem;
+  bottom: -3rem;
+}
+.htl-content .web-o {
+  position: absolute;
   width: 250px;
   right: -12rem;
   bottom: 1rem;
+}
+.htl-content .phone-o {
+  position: absolute;
+  width: 100px;
+  top: -7rem;
+  left: 2rem;
 }
 @media (max-width: 767.98px) {
   .htl-content .city {
