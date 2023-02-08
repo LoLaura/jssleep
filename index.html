@@ -11,6 +11,7 @@
     href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
   />
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
 
     <!-- <link
       rel="stylesheet"
@@ -28,29 +29,29 @@
               class="flex navbar-brand"
               href="https://www.abctravel.com.tw/A00100"
             >
-              <img class="logo-img col-xl-3 col-md-6 " src="./image/abclogo.png" />
+              <img class="lazyload logo-img col-xl-3 col-md-6 " src="./image/abclogo.png"  data-src="large.jpg" data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" />
             </a>
           </div>
             <div class="col-xl-7 col-md-7 col-sm-12 nav-group d-flex bd-highlight">
               <a class="nav-link active" aria-current="page" href="#1">
-                <img class="link col-xl-12 w-100" src="./image/justclogo – 1.png" />
+                <img class="lazyload link col-xl-12 w-100" src="./image/justclogo – 1.png"  data-src="large.jpg" data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w"  />
               </a>
               <a class="nav-link" href="#2">
-                <img class="link  col-xl-12 w-100" src="./image/justclogo – 2.png" />
+                <img class="lazyload link  col-xl-12 w-100" src="./image/justclogo – 2.png"  data-src="large.jpg" data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w"  />
               </a>
               <a class="nav-link" href="#3">
-                <img class="link  col-xl-12 w-100" src="./image/justclogo – 3.png" />
+                <img class="lazyload link  col-xl-12 w-100" src="./image/justclogo – 3.png"  data-src="large.jpg" data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" />
               </a>
               <a class="nav-link" href="#4">
-                <img class="link  col-xl-12 w-100" src="./image/justclogo – 4.png" />
+                <img class="lazyload link  col-xl-12 w-100" src="./image/justclogo – 4.png"  data-src="large.jpg" data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" />
               </a>
             </div>
           </div>
         </nav>
         <div class="container"> 
           <div class="card bg-transparent">
-            <img class="card-img-top img-fluid d-block d-none d-md-block " src="./image/banner.png">
-            <img class="card-img-top img-fluid d-md-none " src="./image/phonebanner.png">
+            <img class="lazyload card-img-top img-fluid d-block d-none d-md-block " src="./image/banner.png"  data-src="large.jpg" data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" >
+            <img class="lazyload card-img-top img-fluid d-md-none " src="./image/phonebanner.png"  data-src="large.jpg" data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" >
 
             <div class="card-img-overlay">
           <div class="d-flex justify-content-center align-items-center h-100">
@@ -65,7 +66,7 @@
           <div class="htl-content container">
             <div class="box ximen position-relative">
               <div class="float-start">
-                <img class="circle img-fluid" src="./image/mark.png" />
+                <img class="lazyload circle img-fluid" src="./image/mark.png"  data-src="large.jpg" data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" />
               </div>
             <li class="row" id="1">
               <div class="card-body row">
@@ -90,8 +91,10 @@
                     data-fancybox="ximen"
                     class=" img-fluid" >
                     <img
-                      class="htl-img img-fluid"
+                      class="lazyload htl-img img-fluid"
                       src="./image/【捷絲旅 - 西門館  公區  外觀】_221028_1.png"
+                      data-src="large.jpg" 
+                      data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" 
                     />
                     </a>
                   </div>
@@ -100,8 +103,10 @@
                     data-fancybox="ximen"
                     class="img-fluid" >
                     <img
-                      class="htl-img img-fluid "
+                      class="lazyload htl-img img-fluid "
                       src="./image/【捷絲旅 - 西門館  豪華雙人房】_外觀.png"
+                      data-src="large.jpg" 
+                      data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" 
                     />
                   </a>
                 </div>
@@ -112,8 +117,10 @@
                     data-fancybox="ximen"
                     class="img-fluid" >
                     <img
-                      class="htl-img img-fluid "
+                      class="lazyload htl-img img-fluid "
                       src="./image/【捷絲旅 - 西門館  精緻客房】_221028_2.png"
+                      data-src="large.jpg" 
+                      data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" 
                     />
                   </a>
                 </div>
@@ -122,8 +129,10 @@
                   data-fancybox="ximen"
                   class=" img-fluid" >
                   <img
-                    class="htl-img img-fluid "
+                    class="lazyload htl-img img-fluid "
                     src="./image/【捷絲旅 - 西門館  精緻雙人房】_221028_2.png"
+                    data-src="large.jpg" 
+                    data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" 
                   />
                 </a>
               </div>
@@ -134,8 +143,10 @@
                       data-fancybox="ximen"
                       class=" img-fluid" >
                       <img
-                        class="htl-img img-fluid "
+                        class="lazyload htl-img img-fluid "
                         src="./image/【捷絲旅 - 西門館  豪華雙人房】_221028_0.png"
+                        data-src="large.jpg" 
+                        data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" 
                       />
                     </a>
                   </div>
@@ -144,8 +155,10 @@
                     data-fancybox="ximen"
                     class=" img-fluid" >
                     <img
-                      class="htl-img img-fluid "
+                      class="lazyload htl-img img-fluid "
                       src="./image/【捷絲旅 - 西門館  精緻三人房】_221028_1.png"
+                      data-src="large.jpg" 
+                      data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" 
                     />
                   </a>
                 </div> 
@@ -166,7 +179,10 @@
           /> 
           <div class="box sanchong position-relative"> 
             <div class="float-end">
-              <img class="circle" src="./image/mark.png" />
+              <img class="lazyload circle"
+               src="./image/mark.png"
+               data-src="large.jpg" 
+               data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w"  />
             </div> 
             <li class="row" id="2">
               <div class="f-box card-body row">
@@ -191,8 +207,10 @@
                     data-fancybox="sanchong"
                     class=" img-fluid" >
                     <img
-                      class="htl-img img-fluid "
+                      class="lazyload htl-img img-fluid "
                       src="./image/台北三重館.png"
+                      data-src="large.jpg"
+                      data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" 
                     />
                     </a>
                   </div>
@@ -201,8 +219,10 @@
                     data-fancybox="sanchong"
                     class="img-fluid" >
                     <img
-                      class="htl-img img-fluid "
+                      class="lazyload htl-img img-fluid "
                       src="./image/台北三重館5e2bc9e767ddb1a79a27cdf6e295eaee.png"
+                      data-src="large.jpg" 
+                      data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" 
                     />
                   </a>
                 </div>
@@ -213,8 +233,10 @@
                     data-fancybox="sanchong"
                     class="img-fluid" >
                     <img
-                      class="htl-img img-fluid  "
+                      class="lazyload htl-img img-fluid  "
                       src="./image/台北三重館8fbb707db614bcd6094f97ee49365fcd.png"
+                      data-src="large.jpg" 
+                      data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" 
                     />
                   </a>
                 </div>
@@ -223,8 +245,10 @@
                   data-fancybox="sanchong"
                   class=" img-fluid" >
                   <img
-                    class="htl-img img-fluid "
+                    class="lazyload htl-img img-fluid "
                     src="./image/台北三重館94e3cf562648bc3f92cf460bdef4af1a.png"
+                    data-src="large.jpg" 
+                    data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" 
                   />
                 </a>
               </div>
@@ -235,8 +259,10 @@
                       data-fancybox="sanchong"
                       class=" img-fluid" >
                       <img
-                        class="htl-img img-fluid "
+                        class="lazyload htl-img img-fluid "
                         src="./image/台北三重館c3fe1f5ac5340f1044285f385b527f45.png"
+                        data-src="large.jpg" 
+                        data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" 
                       />
                     </a>
                   </div>
@@ -245,8 +271,10 @@
                     data-fancybox="sanchong"
                     class=" img-fluid" >
                     <img
-                      class="htl-img img-fluid "
+                      class="lazyload htl-img img-fluid "
                       src="./image/台北三重館c6dd820129c6b1a6f1d815a39f4d6bc1.png"
+                      data-src="large.jpg" 
+                      data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" 
                     />
                   </a>
                 </div> 
@@ -264,13 +292,18 @@
             <div class="">
               <img
               src="./image/triangle.png"
-              class="triangle position-absolute d-none d-xl-block d-md-block img-fluid"
+              class="lazyload triangle position-absolute d-none d-xl-block d-md-block img-fluid"
+              data-src="large.jpg" 
+              data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" 
             />
           </div>
             </div>
               <div class="box chiaoxi position-relative">
                 <div class="float-start">
-                  <img class="circle img-fluid" src="./image/mark.png" />
+                  <img class="lazyload circle img-fluid" 
+                  src="./image/mark.png"
+                  data-src="large.jpg" 
+                  data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w"  />
                 </div>
               <li class="row" id="3">
                 <div class="card-body row">
@@ -294,8 +327,10 @@
                     data-fancybox="chiaoxi"
                     class=" img-fluid" >
                     <img
-                      class="htl-img img-fluid"
+                      class="lazyload htl-img img-fluid"
                       src="./image/【捷絲旅 - 礁溪館  涓 洋式客房】_入口.png"
+                      data-src="large.jpg" 
+                      data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" 
                     />
                     </a>
                   </div>
@@ -304,8 +339,10 @@
                     data-fancybox="chiaoxi"
                     class="img-fluid" >
                     <img
-                      class="htl-img img-fluid "
+                      class="lazyload htl-img img-fluid "
                       src="./image/【捷絲旅 - 礁溪館  清 日式客房】_221028_0.png"
+                      data-src="large.jpg" 
+                      data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" 
                     />
                   </a>
                 </div>
@@ -316,8 +353,10 @@
                     data-fancybox="chiaoxi"
                     class="img-fluid" >
                     <img
-                      class="htl-img img-fluid "
+                      class="lazyload htl-img img-fluid "
                       src="./image/【捷絲旅 - 礁溪館  公區  外觀】_221028_11.png"
+                      data-src="large.jpg" 
+                      data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" 
                     />
                   </a>
                 </div>
@@ -326,8 +365,10 @@
                   data-fancybox="chiaoxi"
                   class=" img-fluid" >
                   <img
-                    class="htl-img img-fluid "
+                    class="lazyload htl-img img-fluid "
                     src="./image/【捷絲旅 - 礁溪館  源 日式客房】_221028_01.png"
+                    data-src="large.jpg" 
+                    data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" 
                   />
                 </a>
               </div>
@@ -338,8 +379,10 @@
                       data-fancybox="chiaoxi"
                       class=" img-fluid" >
                       <img
-                        class="htl-img img-fluid "
+                        class="lazyload htl-img img-fluid "
                         src="./image/【捷絲旅 - 礁溪館  涓 洋式客房】_221028_0.png"
+                        data-src="large.jpg" 
+                        data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" 
                       />
                     </a>
                   </div>
@@ -348,8 +391,10 @@
                     data-fancybox="chiaoxi"
                     class=" img-fluid" >
                     <img
-                      class="htl-img img-fluid "
+                      class="lazyload htl-img img-fluid "
                       src="./image/【捷絲旅 - 礁溪館  源 日式客房】_221028_0.png"
+                      data-src="large.jpg" 
+                      data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" 
                     />
                   </a>
                 </div>
@@ -371,7 +416,10 @@
           /> 
           <div class="box gin position-relative">
             <div class="float-end">
-              <img class="circle" src="./image/mark.png" />
+              <img class="lazyload circle" 
+              src="./image/mark.png"
+              data-src="large.jpg" 
+              data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w"  />
             </div>
             <li class="row" id="4">
               <div class="f-box card-body row">
@@ -397,8 +445,10 @@
                     data-fancybox="ging"
                     class=" img-fluid" >
                     <img
-                      class="htl-img img-fluid "
+                      class="lazyload htl-img img-fluid "
                       src="./image/【晶泉丰旅 - 泉思家庭套房】外觀.png"
+                      data-src="large.jpg" 
+                      data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" 
                     />
                     </a>
                   </div>
@@ -407,8 +457,10 @@
                     data-fancybox="ging"
                     class="img-fluid" >
                     <img
-                      class="htl-img img-fluid "
+                      class="lazyload htl-img img-fluid "
                       src="./image/【晶泉丰旅 - 泉思家庭套房】Mask Group 1.png"
+                      data-src="large.jpg" 
+                      data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" 
                     />
                   </a>
                 </div>
@@ -419,8 +471,10 @@
                     data-fancybox="ging"
                     class="img-fluid" >
                     <img
-                      class="htl-img img-fluid "
+                      class="lazyload htl-img img-fluid "
                       src="./image/【晶泉丰旅 - 泉思家庭套房】_221028_0.png"
+                      data-src="large.jpg" 
+                      data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" 
                     />
                   </a>
                 </div>
@@ -429,8 +483,10 @@
                   data-fancybox="ging"
                   class=" img-fluid" >
                   <img
-                    class="htl-img img-fluid"
+                    class="lazyload htl-img img-fluid"
                     src="./image/【晶泉丰旅 - 泉思家庭套房】_221028_1.png"
+                    data-src="large.jpg" 
+                    data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" 
                   />
                 </a>
               </div>
@@ -441,8 +497,10 @@
                       data-fancybox="ging"
                       class=" img-fluid" >
                       <img
-                        class="htl-img img-fluid "
+                        class="lazyload htl-img img-fluid "
                         src="./image/【晶泉丰旅 - 雅緻客房(一大兩小)】_221028_0.png"
+                        data-src="large.jpg" 
+                        data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" 
                       />
                     </a>
                   </div>
@@ -451,8 +509,10 @@
                     data-fancybox="ging"
                     class=" img-fluid" >
                     <img
-                      class="htl-img img-fluid "
+                      class="lazyload htl-img img-fluid"
                       src="./image/【晶泉丰旅 - 雅緻客房(一大兩小)】_221028_1.png"
+                      data-src="large.jpg" 
+                      data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" 
                     />
                   </a>
                 </div> 
@@ -467,7 +527,9 @@
                 <div class="">
                 <img
                 src="./image/circle.png"
-                class="o position-absolute d-none d-xl-block d-md-block float-right img-fluid" 
+                class="lazyload o position-absolute d-none d-xl-block d-md-block float-right img-fluid" 
+                data-src="large.jpg" 
+                data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" 
               />  
               </div>
             </li>
@@ -477,20 +539,27 @@
           <div class="bottom container-fluid">
             <div class="line1 position-relative">
               <div class="webline1 ">
-              <img class="img-fluid d-none d-md-block " src="./image/line-1.png">
+              <img class="lazyload img-fluid d-none d-md-block " 
+              src="./image/line-1.png"
+              data-src="large.jpg" 
+              data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" >
             </div>
             <div class="phoneline1">
               <img
                     src="./image/phoneline-1.png"
-                    class=" img-fluid d-block d-sm-none"
+                    class="lazyload img-fluid d-block d-sm-none"
+                    data-src="large.jpg" 
+                    data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" 
                   /> 
                   </div>
             </div>
             <div class="go d-flex justify-content-center">
              <button class="bottom-btn">
               <a href="https://cm.abctravel.com.tw/b2c/A00100">
-              <img class="bottom-img  image-fluid rounded "
+              <img class="lazyload bottom-img  image-fluid rounded "
               src="./image/button.png"
+              data-src="large.jpg" 
+              data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" 
             />
             </a></button>
           </div>
@@ -498,7 +567,9 @@
           <img class="img-fluid d-none d-md-block webline2" src="./image/line-2.png">
           <img
           src="./image/phoneline-2.png"
-          class="phoneline2 img-fluid  d-block d-sm-none"
+          class="lazyload phoneline2 img-fluid  d-block d-sm-none"
+          data-src="large.jpg" 
+          data-srcset="small.jpg 480w, medium.jpg 640w, large.jpg 1024w" 
         /> 
       </div>
           </div>
