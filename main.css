@@ -11136,7 +11136,7 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .htl-content .circle {
     height: 35rem;
-    margin: 10px 0px;
+    margin: -10px 2px;
   }
 }
 .htl-content .box {
