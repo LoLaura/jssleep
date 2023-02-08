@@ -11130,7 +11130,7 @@ textarea.form-control-lg {
 @media (max-width: 575.98px) {
   .htl-content .circle {
     margin: 2px;
-    height: 350px;
+    height: 335px;
   }
 }
 @media (min-width: 992px) {
@@ -11188,21 +11188,21 @@ textarea.form-control-lg {
   width: 100%;
 }
 .htl-content .box .card {
-  border-color: transparent;
+  border-color: transparent !important;
 }
-.htl-content .box .card-body {
+.htl-content .box .card .card-body {
   padding: 25px;
 }
 @media (max-width: 767.98px) {
-  .htl-content .box .card-body {
+  .htl-content .box .card .card-body {
     padding: 0px;
   }
 }
-.htl-content .box .card-body .btn-outline-light {
+.htl-content .box .card .card-body .btn-outline-light {
   background-color: #11334c !important;
   font-weight: bold;
 }
-.htl-content .box .card-body .btn-outline-light:hover {
+.htl-content .box .card .card-body .btn-outline-light:hover {
   background-color: aliceblue !important;
 }
 
