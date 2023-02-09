@@ -11225,11 +11225,11 @@ textarea.form-control-lg {
     padding: 0px;
   }
 }
-.htl-content .box .card .card-body .btn-outline-light {
+.htl-content .btn-outline-light {
   background-color: #11334c !important;
   font-weight: bold;
 }
-.htl-content .box .card .card-body .btn-outline-light:hover {
+.htl-content .btn-outline-light:hover {
   background-color: aliceblue !important;
 }
 

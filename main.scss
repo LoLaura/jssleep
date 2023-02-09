@@ -6,6 +6,7 @@
 $mq1024: 1024px;
 
 .navbar-custom-global {
+  // padding: 0.5rem calc((100vw-1200px) / 2);
   background-color: black;
   color: white;
   border: 0;
@@ -101,6 +102,14 @@ $mq1024: 1024px;
     width: 250px;
     bottom: 1rem;
     right: -12rem;
+    // @include keyframes(move-the-object) {
+    //   0% {
+    //     transform: translateX(0);
+    //   }
+    //   100% {
+    //     transform: translateX(200px);
+    //   }
+    // }
   }
   .phone-triangle {
     width: 100px;
@@ -248,15 +257,15 @@ $mq1024: 1024px;
         @include media-breakpoint-between(xs, md) {
           padding: 0px;
         }
-        .btn-outline-light {
-          background-color: #11334c !important;
-          font-weight: bold;
-        }
-        .btn-outline-light:hover {
-          background-color: aliceblue !important;
-        }
       }
     }
+  }
+  .btn-outline-light {
+    background-color: #11334c !important;
+    font-weight: bold;
+  }
+  .btn-outline-light:hover {
+    background-color: aliceblue !important;
   }
 }
 
