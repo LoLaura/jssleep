@@ -64,6 +64,43 @@ $mq1024: 1024px;
     font-size: 22px;
   }
 }
+.promote_banner {
+  @include media-breakpoint-up(lg) {
+    margin-top: 2px;
+  }
+  .promote_info {
+    @include media-breakpoint-up(xs) {
+      font-size: 17px;
+      line-height: 2rem;
+    }
+    @include media-breakpoint-up(xl) {
+      letter-spacing: 3px;
+      line-height: 43px;
+      font-size: 28px;
+    }
+  }
+}
+.promote_btn {
+  position: fixed;
+  right: 20px;
+  bottom: 40px;
+
+  .promote_btn:hover ~ .hidden {
+    transition: all 10s;
+    display: block;
+  }
+  .hidden {
+    display: none;
+  }
+  .promte_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 18rem;
+    background-image: url('./image/看板 (1).png');
+  }
+}
 
 .back {
   background-size: cover;

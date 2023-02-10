@@ -11006,6 +11006,44 @@ textarea.form-control-lg {
   }
 }
 
+@media (min-width: 992px) {
+  .promote_banner {
+    margin-top: 2px;
+  }
+}
+.promote_banner .promote_info {
+  font-size: 17px;
+  line-height: 2rem;
+}
+@media (min-width: 1200px) {
+  .promote_banner .promote_info {
+    letter-spacing: 3px;
+    line-height: 43px;
+    font-size: 28px;
+  }
+}
+
+.promote_btn {
+  position: fixed;
+  right: 20px;
+  bottom: 40px;
+}
+.promote_btn .promote_btn:hover ~ .hidden {
+  transition: all 10s;
+  display: block;
+}
+.promote_btn .hidden {
+  display: none;
+}
+.promote_btn .promte_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
+  height: 18rem;
+  background-image: url("./image/看板 (1).png");
+}
+
 .back {
   background-size: cover;
   height: 100%;
